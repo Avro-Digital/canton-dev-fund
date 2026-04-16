@@ -4,7 +4,7 @@
 **Status:** Draft  
 **Created:** 2026-04-15  
 **Label:** onchain-governance  
-**Champion:** Digital Asset  
+**Champion:** Avro Digital  
 
 ---
 
@@ -206,16 +206,17 @@ This request reflects:
 
 ### Payment Breakdown by Milestone
 
-- Milestone 1 (Governance-Voting Identity and CIP): 550,000 CC upon CIP/design package and contract implementation submission for review
-- Milestone 2 (External Signing Proof of Concept): 450,000 CC upon committee-verifiable externally signed vote demo
-- Milestone 3 (Deployment Packaging and Operator Workflow): 550,000 CC upon staging deployment in the SV-operated model and end-to-end operator workflow validation
-- Milestone 4 (UX Hardening and Rollout Readiness): 450,000 CC upon rollout-ready release package, documentation, and operator validation
+- Milestone 1 (Governance-Voting Identity and CIP): 550,000 CC to Avro Digital upon CIP/design package and contract implementation submission for review
+- Milestone 2 (External Signing Proof of Concept): 450,000 CC to Avro Digital upon committee-verifiable externally signed vote demo
+- Milestone 3 (Deployment Packaging and Operator Workflow): 550,000 CC to Avro Digital upon staging deployment in the SV-operated model and end-to-end operator workflow validation
+- Milestone 4 (UX Hardening and Rollout Readiness): 450,000 CC to Avro Digital upon rollout-ready release package, documentation, and operator validation
 
-### Consulting Allocation
+The milestone amounts above total 2,000,000 CC and fund Avro Digital's implementation workstream. The remaining 500,000 CC is paid to Digital Asset as described below.
 
-500,000 CC of the total request is reserved for upstream architectural and technical design consulting services that de-risk the CIP, Daml design, and integration path. This allocation supports review, design iteration, and technical alignment during implementation, but it is not a standalone delivery milestone.
+### Digital Asset Consulting Payment Breakdown
 
-The remaining 2,000,000 CC funds Avro Digital's implementation workstream across the four milestones above.
+- Milestone 1: 250,000 CC paid to Digital Asset upon acceptance of milestone 1 deliverables
+- Milestone 4: 250,000 CC paid to Digital Asset upon acceptance of milestone 4 deliverables
 
 ### Volatility Stipulation
 
