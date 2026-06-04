@@ -251,7 +251,7 @@ Project-specific acceptance conditions:
 - Coordination with Digital Asset's CIP-0112 work is documented and reflected in the migration tooling.
 - All software deliverables are released under Apache 2.0 to a public Avro Digital repository.
 
-**External-dependency carve-out.** Some milestone artifacts depend on third-party participation that is outside Avro Digital's direct control: Digital Asset's CIP-0112 cadence and consulting reviews, design-partner availability, and issuer legal counsel sounding-board engagement. Where these dependencies gate completion, milestone acceptance is based on Avro Digital delivering the submission-ready artifact and engaging the third party in good faith, not on the third party meeting a fixed external timeline. If a dependency slips materially, the affected milestone scope is renegotiated with the Tech & Ops Committee per the volatility-stipulation review window.
+**External-dependency carve-out.** Some milestone artifacts depend on third-party participation that is outside Avro Digital's direct control: Digital Asset's CIP-0112 cadence, design-partner availability, and issuer legal counsel sounding-board engagement. Where these dependencies gate completion, milestone acceptance is based on Avro Digital delivering the submission-ready artifact and engaging the third party in good faith, not on the third party meeting a fixed external timeline. If a dependency slips materially, the affected milestone scope is renegotiated with the Tech & Ops Committee per the volatility-stipulation review window.
 
 ---
 
@@ -267,21 +267,21 @@ This request reflects:
 - A reusable Compliance Hook Library covering the major regulatory categories
 - A migration path from CIP-0056 into CIP-0112 coordinated with Digital Asset's standard evolution
 - Design-partner engagement with third-party issuers, custodians, or wallets
-- Targeted architectural consulting with Digital Asset to align the reference implementations with CIP-0112 direction
+- In-house architecture, compliance-hook, and migration review work aligning each reference implementation with the CIP-0112 direction
 
 ### Payment Breakdown by Milestone
 
-| Milestone | Avro (CC) | DA Consulting (CC) | Total (CC) | ~USD at $0.14 | Trigger |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| 1 — Architecture, DA Coordination, Cash/Stablecoin Baseline | 1,400,000 | 500,000 | 1,900,000 | ~$266,000 | Cash/stablecoin reference released, DA scope memorandum delivered, Milestone 1 ADRs published |
-| 2 — Fixed-Income Reference Implementation | 1,700,000 | 0 | 1,700,000 | ~$238,000 | Fixed-income reference released, multi-tranche corporate-bond demo recorded, first design-partner engagement initiated |
-| 3 — Equity, Corporate Actions, Compliance Hook Library | 1,700,000 | 400,000 | 2,100,000 | ~$294,000 | Equity reference released, compliance hook library released, issuer-legal-counsel sounding-board commentary captured as ADRs |
-| 4 — Commodities, Warehouse Receipts, Structured Products | 1,600,000 | 0 | 1,600,000 | ~$224,000 | Commodities and structured-products references released, second design-partner engagement initiated |
-| 5 — CIP-0112 Migration Path | 1,500,000 | 600,000 | 2,100,000 | ~$294,000 | Migration tooling released, end-to-end migration into CIP-0112 validated across all six references |
-| 6 — Production Hardening, Design Partner Validation, Release | 1,100,000 | 500,000 | 1,600,000 | ~$224,000 | Two named design-partner integration notes published, final cross-reference release shipped, Foundation co-marketing live |
-| **Total** | **9,000,000** | **2,000,000** | **11,000,000** | **~$1,540,000** | |
+| Milestone | Funding (CC) | ~USD at $0.14 | Trigger |
+| :---- | :---- | :---- | :---- |
+| 1 — Architecture, DA Coordination, Cash/Stablecoin Baseline | 1,900,000 | ~$266,000 | Cash/stablecoin reference released, DA scope memorandum delivered, Milestone 1 ADRs published |
+| 2 — Fixed-Income Reference Implementation | 1,700,000 | ~$238,000 | Fixed-income reference released, multi-tranche corporate-bond demo recorded, first design-partner engagement initiated |
+| 3 — Equity, Corporate Actions, Compliance Hook Library | 2,100,000 | ~$294,000 | Equity reference released, compliance hook library released, issuer-legal-counsel sounding-board commentary captured as ADRs |
+| 4 — Commodities, Warehouse Receipts, Structured Products | 1,600,000 | ~$224,000 | Commodities and structured-products references released, second design-partner engagement initiated |
+| 5 — CIP-0112 Migration Path | 2,100,000 | ~$294,000 | Migration tooling released, end-to-end migration into CIP-0112 validated across all six references |
+| 6 — Production Hardening, Design Partner Validation, Release | 1,600,000 | ~$224,000 | Two named design-partner integration notes published, final cross-reference release shipped, Foundation co-marketing live |
+| **Total** | **11,000,000** | **~$1,540,000** | |
 
-The Avro column funds Avro Digital's implementation workstream. The DA Consulting column funds Digital Asset's milestone-gated review work: M1 architecture and scope alignment, M3 compliance-hook review, M5 migration validation against DA's CIP-0112 references, and M6 final integration review plus co-marketing coordination.
+This funds Avro Digital's implementation workstream end-to-end. Beyond the asset-class references themselves, it covers the milestone-gated alignment and review work Avro performs in-house: M1 architecture and CIP-0112 scope alignment, M3 compliance-hook review, M5 migration validation against Digital Asset's CIP-0112 references, and M6 final integration review plus co-marketing coordination.
 
 ### Volatility Stipulation
 
@@ -310,7 +310,7 @@ Today, every new institutional issuer on Canton starts from a blank canvas. The 
 
 The opportunity is to build the asset-class reference implementations that sit on top of CIP-0056 and make the next wave of institutional deployments straightforward. Bond issuers adopt the fixed-income reference. Equity platforms adopt the equity reference. Commodity custodians adopt the warehouse-receipt reference. Each issuer invests its engineering budget in the parts of its product that differentiate it, not in rebuilding lifecycle patterns that every other issuer also needs.
 
-Digital Asset's in-flight CIP-0112 work is the right complement to this program. CIP-0112 is the backward-compatible evolution of CIP-0056, adding privacy, performance, and traditional-accounting improvements at the standard layer; Avro Digital ships the reference implementations that make that evolution deployable. Coordination between the two is achieved through the DA consulting line item and a documented scope boundary established in Milestone 1.
+Digital Asset's in-flight CIP-0112 work is the right complement to this program. CIP-0112 is the backward-compatible evolution of CIP-0056, adding privacy, performance, and traditional-accounting improvements at the standard layer; Avro Digital ships the reference implementations that make that evolution deployable. Coordination between the two is achieved through a documented scope boundary established in Milestone 1.
 
 Avro Digital proposes this as a focused, upstream-complementary contribution to Canton's institutional asset layer, grounded in direct experience with Daml contract design, regulatory pattern implementation, and reference-implementation engineering.
 
